@@ -1,0 +1,157 @@
+body {
+	overflow:auto;
+}
+
+.toptitel {
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:5px;
+	color:white;
+	background-color:#de4949 !important;
+	margin-top:60px;
+	letter-spacing: 2px;
+	
+}
+
+.navbar {
+	
+	background-color:#de4949 !important;
+}
+
+.navbar-nav .nav-link {
+	color:#e9ecef !important;
+}
+
+.navbar a:hover {
+	font-size-adjust: 0.58;
+}
+
+.dropdown-menu {
+	background-color: #ca4e4ed6 !important;
+	
+}
+
+.list1 {
+	margin-right: 20px !important;
+	color:#e9ecef !important;
+}
+
+a.dropdown-item {
+	color:#e9ecef !important;
+	background-color: #ca4e4ed6 !important;
+	padding:10px;
+}
+
+
+
+.bgimg {
+	width:100%;
+	height:100%;
+	position:fixed;
+	bottom:-40px;
+}
+.reqbgimg {
+	width:100%;
+	height:100%;
+	position:fixed;
+	bottom:-40px;
+	opacity:0.4;
+}
+
+.requestbtn {
+	border-radius: 8px;
+	margin-top:12px;
+	padding:10px;
+	background-color: #5e7c96;
+	-webkit-box-shadow: 7px 7px 7px 0px rgba(187,195,201,1);
+-moz-box-shadow: 7px 7px 7px 0px rgba(187,195,201,1);
+box-shadow: 7px 7px 7px 0px rgba(187,195,201,1);
+	
+
+}
+
+.requestbtn:hover {
+	font-size-adjust: 0.58;
+}
+
+.reqtoptitel {
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:5px;
+	color:white;
+	background-color:#de4949 !important;
+	top:0px;
+	letter-spacing: 2px;
+	position:relative;
+	
+}
+
+.reqleft {
+	margin-top: 26px;
+}
+.langselect {
+	border-radius: 6px;
+	width: 250px;
+	height: 30px;
+	float:right;
+}
+
+
+.radbox label {
+	padding-right:20px;
+	font-size: 17px;
+}
+
+.radbox {
+	padding-bottom:10px;
+}
+/*------requestpage2-höz*/
+.leftside {
+	float:left;
+}
+/*requestpage2-höz----*/
+.textpaste {
+	padding-top:2px;
+	padding-bottom:100px;
+	float:right;  /*requestpage2-höz*/
+}
+#cke_1_contents {
+	height:300px !important;
+}
+
+
+
+.cke_contents, .cke_reset {
+	height:300px !important;
+}
+.footer {
+	position:fixed !important;
+	bottom: 0px !important;
+	width: 100%;
+	text-align:center;
+}
+.foot {
+	text-align:center;
+	margin:auto;
+}
+
+.foot a {
+	color:white;
+}
+
+.foot a:hover {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+.footol {
+	text-align:center;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+.bg-foot {
+	background-color:#aeb2cb !important;
+
+}
