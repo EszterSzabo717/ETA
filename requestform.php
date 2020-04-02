@@ -1,3 +1,14 @@
+<?php
+if (!empty($_POST['calculate_btn'])) {
+		
+		header('Location: requestpage.php?msg=request.');
+	
+	}
+
+
+?>
+
+
 <div class="page-header">
 				<h1 class="reqtoptitel bg-dark bg-light fixed-top">
 					 <small>My request to</small> ETA
@@ -15,33 +26,33 @@
 			<h4 style="text-align:center ; margin-top: -10px">Which topic suits best to your text?</h4>
 		<br>
 		<div style="text-align:center ; margin-top: -20px" class="radbox" required>
-		<input type="radio" id="Economics" name="topic" value="Economics">
+		<input type="radio" id="Economics" name="Economics" value="Economics">
 		<label for="Economics">Economics</label>
-		<input type="radio" id="Law" name="topic" value="Law">
+		<input type="radio" id="Law" name="Law" value="Law">
 		<label for="Law">Law</label>
-		<input type="radio" id="Technology" name="topic" value="Technology">
+		<input type="radio" id="Technology" name="Technology" value="Technology">
 		<label for="Technology">Technology, products</label>
 		<br>
-		<input type="radio" id="Society" name="topic" value="Society">
+		<input type="radio" id="Society" name="Society" value="Society">
 		<label for="Society">Society</label>
-		<input type="radio" id="Ordinary" name="topic" value="Ordinary">
+		<input type="radio" id="Ordinary" name="Ordinary" value="Ordinary">
 		<label for="Ordinary">Ordinary, easy texts</label>
 		</div>
 		<br>
 		
 		<div>
 		Translate from: 	<select class="langselect">
-		<option value="volvo">English</option>
-		<option value="saab">German</option>
-		<option value="mercedes">Hungarian</option>
+		<option value="fromenglish">English</option>
+		<option value="fromgerman">German</option>
+		<option value="fromhungarian">Hungarian</option>
 			</select>
 		</div>
 		<br>
 		<div>
 		to: 	<select class="langselect">
-		<option value="volvo">English</option>
-		<option value="saab">German</option>
-		<option value="mercedes">Hungarian</option>
+		<option value="toenglish2">English</option>
+		<option value="togerman">German</option>
+		<option value="tohungarian">Hungarian</option>
 			</select>
 		</div>
 		<br>		
@@ -79,11 +90,11 @@
 		
 		<div class="col-md-8 textpaste">
 		
-		<textarea class="form-control" name="comments" id="comments" onkeyup="countWords()" rows="26">Please select topic and language, and paste your text here to calculate approximate price</textarea>
-			<div class="wordcounter" id="word_count" style="margin-top:10px">Number of words:	<input type="text"	value="">
-			<input type="submit" name="calculate_btn" method="POST" value="calculate">	
-			CALCULATED COST: <input type="text" value="">
-				
+		<textarea class="form-control" name="comments2" id="comments2" onkeyup="countWords()" rows="26" style="height: 350px" placeholder="Please select topic and language, and paste your text here to calculate approximate price"></textarea>
+			<div class="wordcounter" style="margin-top:10px">
+				Number of words:	<input type="text" id="word_count"	value="">
+				<input type="submit" name="calculate_btn" method="GET" value="calculate">	
+			    CALCULATED COST: <input type="text" value="">	
 			</div>
 		</div>
 		
